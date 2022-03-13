@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+
+/* Primary Colors
+--------------------------------------*/
+$dark-cyan: hsl(185, 75%, 39%);
+$very-dark-desaturated-blue: hsl(229, 23%, 23%);
+$dark-grayish-blue: hsl(227, 10%, 46%);
+
+/* Neutral Colors
+--------------------------------------*/
+$dark-gray: hsl(0, 0%, 59%);
+$dark-gray-trans: hsla(0, 0%, 59%, 0.2);
+$black-trans: rgba(0, 0, 0, 0.1);
+
+/* Colors by element
+--------------------------------------*/
+$clr-bg-main: $dark-cyan;
+$clr-bg-card: #fff;
+$clr-heading: $very-dark-desaturated-blue;
+$clr-paragraph: $dark-gray;
+$clr-line: $dark-gray-trans;
+$clr-shadow: $black-trans;
+$clr-attribution-text: #fff;
+
+/* Breakpoints
+--------------------------------------*/
+$breakpoint-md: 768px;
+
+/* Typography
+--------------------------------------*/
+$font-size: 18px;
+$ff-primary: "Kumbh Sans", sans-serif;
+
+/* Reset
+--------------------------------------*/
+html,
+body,
+main,
+h1,
+h2,
+p,
+input {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Root
+--------------------------------------*/
+:root {
+  font-size: $font-size;
+  color: $dark-gray;
+}

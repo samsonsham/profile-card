@@ -1,0 +1,75 @@
+/* Card background-color: $clr-bg-card;
+--------------------------------------*/
+.card {
+  background-color: $clr-bg-card;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 1rem;
+  width: 100%;
+  max-width: 24rem;
+  box-shadow: 0 1rem 1rem $clr-shadow;
+  &-head {
+    background-image: url(../images/bg-pattern-card.svg);
+    width: 100%;
+    height: 8rem;
+    border-radius: 1rem 1rem 0 0;
+  }
+  &-image {
+    position: relative;
+    top: -3rem;
+    border-radius: 50%;
+    border: 0.3rem solid white;
+    img {
+      border-radius: 50%;
+    }
+  }
+  &-heading {
+    color: $clr-heading;
+    font-size: 1.2rem;
+    font-weight: 700;
+    position: relative;
+    top: -1.8rem;
+    span {
+      color: $clr-paragraph;
+      font-weight: 400;
+      margin-left: 0.2rem;
+    }
+  }
+  &-text {
+    font-size: 1rem;
+    position: relative;
+    top: -1.2rem;
+  }
+  &-line {
+    border: 0.01rem solid $clr-line;
+    width: 100%;
+  }
+}
+
+/* Card Statistic
+--------------------------------------*/
+.card-stat {
+  width: 100%;
+  ul {
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+    li {
+      list-style: none;
+      padding: 0.5rem 0;
+      text-align: center;
+      color: $very-dark-desaturated-blue;
+      font-size: 1.2rem;
+      font-weight: 700;
+      span {
+        display: block;
+        padding-top: 0.5rem;
+        color: $dark-grayish-blue;
+        font-size: 0.8rem;
+        font-weight: 400;
+        letter-spacing: 0.1rem;
+      }
+    }
+  }
+}

@@ -1,0 +1,39 @@
+body {
+  font-family: $ff-primary;
+  background-color: $clr-bg-main;
+  display: flex;
+  justify-content: center;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-position: left -20rem top -22rem, bottom -25rem right -18rem;
+  background-repeat: no-repeat;
+  background-image: url(../images/bg-pattern-top.svg),
+    url(../images/bg-pattern-bottom.svg);
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 0 1.2rem;
+}
+.attribution {
+  color: $clr-attribution-text;
+  font-size: 0.7rem;
+  width: 100%;
+  text-align: center;
+  margin-top: 1rem;
+  a {
+    color: $dark-grayish-blue;
+  }
+  a:hover {
+    color: $dark-gray;
+    text-decoration: none;
+  }
+}
