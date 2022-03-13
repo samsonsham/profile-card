@@ -11,10 +11,13 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background-position: left -20rem top -22rem, bottom -25rem right -18rem;
+  background-position: left -45rem top -22rem, bottom -25rem right -42rem;
   background-repeat: no-repeat;
   background-image: url(../images/bg-pattern-top.svg),
     url(../images/bg-pattern-bottom.svg);
+  @media (min-width: $breakpoint-md) {
+    background-position: left -20rem top -22rem, bottom -25rem right -18rem;
+  }
 }
 main {
   display: flex;
