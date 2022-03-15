@@ -18,6 +18,10 @@ body {
   @media (min-width: $breakpoint-md) {
     background-position: left -20rem top -22rem, bottom -25rem right -18rem;
   }
+  @media (min-width: $breakpoint-md) and (max-width: $breakpoint-lg) {
+    height: auto;
+    padding: 3rem;
+  }
 }
 main {
   display: flex;

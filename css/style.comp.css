@@ -53,6 +53,12 @@ body {
     background-position: left -20rem top -22rem, bottom -25rem right -18rem;
   }
 }
+@media (min-width: 768px) and (max-width: 850px) {
+  .container {
+    height: auto;
+    padding: 3rem;
+  }
+}
 
 main {
   display: flex;
@@ -77,7 +83,7 @@ main {
   text-decoration: none;
 }
 
-/* Card background-color: $clr-bg-card;
+/* Card
 --------------------------------------*/
 .card {
   background-color: #fff;
